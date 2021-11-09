@@ -1,0 +1,53 @@
+a {
+  text-decoration: none ;
+  color: $white;
+
+}
+
+body {
+  margin: 0;
+}
+
+html {
+  background-color: $black;
+  font-size: 10px;
+  font-family: $main-typo;
+  margin: 0;
+}
+
+h1 {
+  font-family: $title-bold;
+  font-size: $font-l;
+  text-transform: uppercase;
+
+  @media (min-width: 60rem) {
+    font-size: $font-xxl;
+  }
+}
+
+h2 {
+  font-family: $title-bold;
+  font-size: $font-m;
+  @media (min-width: 80rem) {
+    font-size: $font-l;
+  }
+}
+
+p {
+  color: $white;
+  font-size: $font-s;
+  line-height: 2.5rem;
+  @media (min-width: 60rem) {
+    font-size: $font-m;
+  }
+}
+
+li{
+  list-style: none;
+}
+
+.wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+}
