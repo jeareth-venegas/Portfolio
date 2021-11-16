@@ -6,7 +6,12 @@
     height: 10rem;
     width: 23rem;
     background: $black;
-
+    @media (min-width: 60rem){
+        .animation{
+            padding-top: 10rem;
+        }
+        
+    }
 }
 
 h1 {

@@ -20,7 +20,9 @@
     }
 
     @media (min-width: 60rem){
-        width: 80%;
+        img{
+            width: 50%;
+        }
     }
 }
 .about-me__paragraph{
@@ -29,6 +31,10 @@
     font-size: $font-m;
     width: 25rem;
     align-items: center;
+    @media (min-width: 60rem){
+        font-size: $font-s;
+        width: 70rem;
+    }
 }
 
 

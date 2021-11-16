@@ -49,10 +49,18 @@
     .footer__arrow-up--button i {
         position: absolute;
         font-size: 3rem;
+        left: 24%;
         top: 3%;
-        left: 34%;
         color: $white;
         transition: .2s;
+        @media (min-width: 40rem) {
+            top: 4%;
+            left: 25%;
+        }
+        @media (min-width: 60rem) {
+            top: 16%;
+            left: 30%;
+        }
     }
     
     .show {

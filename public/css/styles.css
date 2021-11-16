@@ -80,10 +80,18 @@ li {
   .footer .footer__arrow-up--button i {
     position: absolute;
     font-size: 3rem;
+    left: 24%;
     top: 3%;
-    left: 34%;
     color: #FFFF;
     transition: .2s; }
+    @media (min-width: 40rem) {
+      .footer .footer__arrow-up--button i {
+        top: 4%;
+        left: 25%; } }
+    @media (min-width: 60rem) {
+      .footer .footer__arrow-up--button i {
+        top: 16%;
+        left: 30%; } }
   .footer .show {
     z-index: 10; }
   .footer .show .footer__arrow-up--button {
@@ -236,8 +244,8 @@ li {
     top: 2rem;
     width: 90%; }
   @media (min-width: 60rem) {
-    .about-me__image {
-      width: 80%; } }
+    .about-me__image img {
+      width: 50%; } }
 
 .about-me__paragraph {
   padding-top: 6rem;
@@ -245,6 +253,10 @@ li {
   font-size: 2.5rem;
   width: 25rem;
   align-items: center; }
+  @media (min-width: 60rem) {
+    .about-me__paragraph {
+      font-size: 1.6rem;
+      width: 70rem; } }
 
 .contact-me {
   margin: 0 auto;
@@ -393,6 +405,9 @@ li {
   height: 10rem;
   width: 23rem;
   background: #000; }
+  @media (min-width: 60rem) {
+    .text-section .animation {
+      padding-top: 10rem; } }
 
 h1 {
   text-align: center;
