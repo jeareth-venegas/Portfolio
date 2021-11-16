@@ -1,0 +1,39 @@
+// Typography
+
+$main-typo: 'Roboto', sans-serif;
+$title-bold:  'Koulen', cursive;
+$title-regular: 'Meera Inimai', sans-serif;
+
+// Colors
+
+
+$black:#000;
+$gray: #CCCCCC;
+$pink: #FFD0F3;
+$pink2: #F74ECB;
+$pink3: #E23FA8;
+$purple: #9A2AAA;
+$violet: #CA74D9;
+$lila: #E0A8E3;
+$dark-purple: #2F1186;
+$purple2: #6A45B7;
+$white: #FFFF;
+
+$size: 1rem;
+
+// typography
+
+// font sizes
+
+$font-xs: $size;
+$font-s: $size * 1.6;
+
+// Mobile txt
+
+$font-m: $size * 2.5;
+$font-l: $size * 4;
+
+// Desktop txt
+
+$font-xl: $size * 4.5;
+$font-xxl: $size * 6;
