@@ -18,6 +18,12 @@
         color: $white;       
         margin-top: 2rem; 
         text-align:  center;
+        font-size: $font-xs;
+        @media (min-width: 60rem) {
+            p {
+                font-size: $font-m;
+            }
+        }
     }
 
     .footer__arrow-up {
